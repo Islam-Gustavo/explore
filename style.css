@@ -1,0 +1,168 @@
+body {
+  background: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  background: #535971;
+  width: 100%;
+  height: 436px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  color: #ffffff;
+  margin-top: 140px;
+}
+
+h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+header p {
+  width: 417px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 8px 8px 0 0;
+  min-height: 300px;
+  padding: 64px;
+  width: 750px;
+
+}
+
+fieldset {
+  border: none;
+}
+
+legend  {
+  color: #535971;
+  top: 64px;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  width: 100%;
+}
+fieldset label{
+  color: #4E4958;
+}
+fieldset label span{
+  color: #C1BCCC;
+  
+}  
+fieldset input{
+  border:none;
+  background: #E6E6F0;
+  border-radius: 8px;
+}
+
+.conte {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.conte label{
+  margin-bottom: 16px;
+}
+
+.input-namer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-sobr {
+  display: flex;
+  flex-direction: column;
+}
+
+.conte input{
+  width: 300px;
+  height: 56px;
+ 
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+}
+.user label{
+  margin-top: 16px;  
+  margin-bottom: 8px;
+}
+
+.user input{
+height: 56px;
+margin-top: 8px;
+}
+
+.mento {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mento input{
+  height: 56px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+h4{
+  font-weight: 400;
+}
+
+.mentoria{
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h4{
+  margin-top: 32px;
+  margin-bottom: 1px;
+}
+.mentoria input{
+  height: 56px;
+  margin-top: 8px;
+}
+.date input{
+  width: 300px;
+  margin-right: 32px;
+}
+.das input{
+  margin-right: 11px;
+}
+
+footer{ 
+  width: 878px;
+  height: 160px;
+  background-color: #535971;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer button{
+width: 608px;
+height: 55.65px;
+background-color: #FF5374;
+border: none;
+border-radius: 20px;
+}
